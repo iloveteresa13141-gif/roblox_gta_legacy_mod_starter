@@ -1,0 +1,45 @@
+{
+  "project": "Roblox Avatar for GTA V Legacy",
+  "status": "specification_scaffold_not_built_or_tested",
+  "target_game": {
+    "name": "Grand Theft Auto V Legacy",
+    "engine": "RAGE",
+    "mode": "story_mode_only"
+  },
+  "roblox_reference": {
+    "username": "datboicash465",
+    "user_id": "2481630534",
+    "target": "current avatar appearance"
+  },
+  "visual_spec": {
+    "body": "rigid, classic blocky proportions; square torso and straight block-shaped limbs",
+    "hair": "messy, spiky black hair covering much of the face",
+    "head_accessory": "silver spiked head accessory",
+    "face": "dark, understated facial features, partly obscured by hair",
+    "top": "red zip-up hoodie, white arrow-like sleeve graphics, dark chest graphics",
+    "legs": "gray distressed jeans with dark cross-like markings",
+    "shoes": "dark footwear",
+    "waist_accessory": "small pointed accessory visible near waist; exact asset needs confirmation"
+  },
+  "gameplay": {
+    "opening": "appear inside an apartment or safehouse, then exit into Los Santos",
+    "core": "normal GTA V story-mode free roam and vehicle gameplay",
+    "animation_priority": "appearance and rigid silhouette first; custom Roblox-like animation later if feasible"
+  },
+  "acceptance_tests": [
+    "character model loads in GTA V Legacy story mode",
+    "blocky proportions are preserved in idle, walk, run, and vehicle entry/exit",
+    "textures and accessories render without missing materials",
+    "normal free roam and vehicle gameplay remain functional",
+    "install and uninstall are reversible",
+    "no GTA Online support or online use instructions",
+    "capture an in-game screenshot before publishing"
+  ],
+  "missing_inputs": [
+    "Melty install recipe and game_info response",
+    "supported character replacement method for current GTA V Legacy build",
+    "authorized model/texture assets or recreated model",
+    "confirmed local GTA V Legacy install path",
+    "test result and gameplay screenshot"
+  ]
+}
